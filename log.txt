@@ -1,0 +1,3 @@
+[*] スクリプト起動
+[*] 統計スレッド起動済み
+[!] エラー発生: name 'INTERFACE' is not defined

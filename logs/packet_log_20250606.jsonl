@@ -1,0 +1,23 @@
+{"timestamp": "2025-06-06 03:16:00", "test": "初期動作確認ログ"}
+{"timestamp": "2025-06-06 03:16:07", "type": "tor_exit_detected", "src_ip": "10.0.0.2", "alert": "Tor exit node detected"}
+{"timestamp": "2025-06-06 03:16:07", "type": "untrusted_device_detected", "src_ip": "10.0.0.2", "alert": "Untrusted device communication detected"}
+{"type": "packet", "src": "10.0.0.2", "dst": "224.0.0.251", "src_country": "Unknown", "dst_country": "Unknown", "protocol": "UDP", "size": 135, "src_port": 5353, "dst_port": 5353, "payload": null}
+{"timestamp": "2025-06-06 03:16:20", "type": "tor_exit_detected", "src_ip": "10.0.0.1", "alert": "Tor exit node detected"}
+{"timestamp": "2025-06-06 03:16:21", "type": "untrusted_device_detected", "src_ip": "10.0.0.1", "alert": "Untrusted device communication detected"}
+{"type": "packet", "src": "10.0.0.1", "dst": "10.0.0.2", "src_country": "Unknown", "dst_country": "Unknown", "protocol": "Other", "size": 84, "src_port": null, "dst_port": null, "payload": "f9de416800000000883e080000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637"}
+{"timestamp": "2025-06-06 03:16:21", "type": "tor_exit_detected", "src_ip": "10.0.0.2", "alert": "Tor exit node detected"}
+{"timestamp": "2025-06-06 03:16:21", "type": "untrusted_device_detected", "src_ip": "10.0.0.2", "alert": "Untrusted device communication detected"}
+{"type": "packet", "src": "10.0.0.2", "dst": "10.0.0.1", "src_country": "Unknown", "dst_country": "Unknown", "protocol": "Other", "size": 84, "src_port": null, "dst_port": null, "payload": "f9de416800000000883e080000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637"}
+{"timestamp": "2025-06-06 03:16:21", "type": "tor_exit_detected", "src_ip": "10.0.0.1", "alert": "Tor exit node detected"}
+{"timestamp": "2025-06-06 03:16:21", "type": "untrusted_device_detected", "src_ip": "10.0.0.1", "alert": "Untrusted device communication detected"}
+{"type": "packet", "src": "10.0.0.1", "dst": "10.0.0.2", "src_country": "Unknown", "dst_country": "Unknown", "protocol": "Other", "size": 84, "src_port": null, "dst_port": null, "payload": "fade416800000000ae45080000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637"}
+{"timestamp": "2025-06-06 03:16:22", "type": "tor_exit_detected", "src_ip": "10.0.0.2", "alert": "Tor exit node detected"}
+{"timestamp": "2025-06-06 03:16:22", "type": "untrusted_device_detected", "src_ip": "10.0.0.2", "alert": "Untrusted device communication detected"}
+{"type": "packet", "src": "10.0.0.2", "dst": "10.0.0.1", "src_country": "Unknown", "dst_country": "Unknown", "protocol": "Other", "size": 84, "src_port": null, "dst_port": null, "payload": "fade416800000000ae45080000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637"}
+{"timestamp": "2025-06-06 03:18:47", "test": "初期動作確認ログ"}
+{"timestamp": "2025-06-06 03:18:53", "type": "tor_exit_detected", "src_ip": "10.0.0.1", "alert": "Tor exit node detected"}
+{"timestamp": "2025-06-06 03:18:53", "type": "untrusted_device_detected", "src_ip": "10.0.0.1", "alert": "Untrusted device communication detected"}
+{"type": "packet", "src": "10.0.0.1", "dst": "10.0.0.2", "src_country": "Unknown", "dst_country": "Unknown", "protocol": "Other", "size": 84, "src_port": null, "dst_port": null, "payload": "91df416800000000b69d0d0000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637"}
+{"timestamp": "2025-06-06 03:18:53", "type": "tor_exit_detected", "src_ip": "10.0.0.2", "alert": "Tor exit node detected"}
+{"timestamp": "2025-06-06 03:18:53", "type": "untrusted_device_detected", "src_ip": "10.0.0.2", "alert": "Untrusted device communication detected"}
+{"type": "packet", "src": "10.0.0.2", "dst": "10.0.0.1", "src_country": "Unknown", "dst_country": "Unknown", "protocol": "Other", "size": 84, "src_port": null, "dst_port": null, "payload": "91df416800000000b69d0d0000000000101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637"}
