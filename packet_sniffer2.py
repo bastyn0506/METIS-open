@@ -18,7 +18,7 @@ packet_counts = defaultdict(int)
 packet_lock = threading.Lock()
 # UnityのHTTP受信サーバーURL
 UNITY_SERVER_URL = "ws://localhost:8765"
-INTERFACE = "\\Device\\NPF_{BAE165C8-FDF3-18C9-8019-307924B0EE9E}"   #使用するアダプタを指定 
+INTERFACE = ""   #使用するアダプタを指定 
 
 
 # 通信統計保持用
