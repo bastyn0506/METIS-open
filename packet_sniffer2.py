@@ -18,8 +18,8 @@ packet_counts = defaultdict(int)
 packet_lock = threading.Lock()
 # UnityのHTTP受信サーバーURL
 UNITY_SERVER_URL = "ws://localhost:8765"
-INTERFACE = "\\Device\\NPF_{BAE165C8-FDF3-18C9-8019-307924B0EE9E}"  #BAE165C8-FDF3-18C9-8019-307924B0EE9E(server)  23FE3796-0B4B-461E-999E-C711816C4C61(pc)
-#3d7c47ece4b601c0b4223b048595dd50e8705b89d29166ab
+INTERFACE = "\\Device\\NPF_{BAE165C8-FDF3-18C9-8019-307924B0EE9E}"   #使用するアダプタを指定 
+
 
 # 通信統計保持用
 port_traffic = defaultdict(int)  # ポート別通信量（パケット数）
@@ -77,19 +77,19 @@ def send_to_unity_ws(data: dict):
     else:
         print("[!] WebSocket未接続")
 
-def load_malicious_ips(filepath=r"C:\Users\nakah\Desktop\METIS.op\malicious_ips.txt"):
+def load_malicious_ips(filepath=IPリストを指定"):
     with open(filepath) as f:
         return set(line.strip() for line in f)
 
-def load_malicious_domains(filepath=r"C:\Users\nakah\Desktop\METIS.op\malicious_domains.txt"):
+def load_malicious_domains(filepath=ドメインリストを指定"):
     with open(filepath, encoding='utf-8') as f:
         return set(line.strip() for line in f if not line.startswith("#"))
 
-def load_malicious_urls(filepath=r"C:\Users\nakah\Desktop\METIS.op\malicious_urls.txt"):
+def load_malicious_urls(filepath=URLリストを指定"):
     with open(filepath, encoding='utf-8') as f:
         return set(line.strip() for line in f if not line.startswith("#"))
 
-def load_tor_exit_nodes(filepath=r"C:\Users\nakah\Desktop\METIS.op\tor_exit_lists.txt"):
+def load_tor_exit_nodes(filepath=torリストを指定"):
     try:
         with open(filepath, "r") as f:
             return set(line.strip() for line in f if line.strip())
