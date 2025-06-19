@@ -1,7 +1,8 @@
 # METIS - Monitoring Endpoint Traffic Intelligence System
 
 \METIS は、家庭ネットワークや教育環境におけるネットワーク通信の3D可視化ツールです。
-Unityによってネットワークノードと通信の流れを可視化し、Python（Scapy）でリアルタイムにパケットを監視・解析します。 開発者への連絡やご意見があれば、お気軽に以下のフォームまたはメールでお知らせください。 vanson.norton0506@icluod.com https://github.com/bastyn0506/METIS.linux/blob/main/README%20en.md [English README]
+Unityによってネットワークノードと通信の流れを可視化し、Python（Scapy）でリアルタイムにパケットを監視・解析します。
+https://github.com/bastyn0506/METIS.linux/blob/main/README%20en.md [English README]
 
 ⚠️ 注意・免責 このツールは教育・研究用途向けです。実運用環境での使用は自己責任でお願いします。 セキュリティ意識の啓発やトラフィック理解を目的としています。
 
@@ -19,6 +20,7 @@ Unityによってネットワークノードと通信の流れを可視化し、
 - リアルタイム設定反映（`config.json` を監視）
 - WebSocketを用いたUnityへのリアルタイムデータ送信
 - JSON Lines形式での通信ログ保存
+- SNI解析によるドメイン抽出　バックグランドで動いている通信などのドメインも確認可能
 
 ### 🎮 Unity（可視化）
 - 通信元・宛先IPをノードとして3D空間に可視化
@@ -83,6 +85,7 @@ Unityによってネットワークノードと通信の流れを可視化し、
 ## 📽️ デモ動画はこちら！
 
 https://youtu.be/-eKr9tY0Bhc
+https://www.youtube.com/watch?v=dJPsUrpONpY
 
 ---
 
