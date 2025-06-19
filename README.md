@@ -1,6 +1,6 @@
 # METIS - Monitoring Endpoint Traffic Intelligence System
 
-\METIS は、家庭ネットワークや教育環境におけるネットワーク通信の3D可視化ツールです。
+\METIS は、家庭ネットワークや教育環境、小規模組織におけるネットワーク通信の3D可視化ツールです。
 Unityによってネットワークノードと通信の流れを可視化し、Python（Scapy）でリアルタイムにパケットを監視・解析します。
 https://github.com/bastyn0506/METIS.linux/blob/main/README%20en.md [English README]
 
